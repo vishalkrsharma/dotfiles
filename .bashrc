@@ -123,5 +123,5 @@ export NVM_DIR="$HOME/.nvm"
 # fm6000
 fm6000 -c random -r random
 
-# source /opt/Xilinx/14.7/ISE_DS/settings64.sh
+source /opt/Xilinx/14.7/ISE_DS/settings64.sh
 export PATH=$PATH:/home/vishal/.spicetify
