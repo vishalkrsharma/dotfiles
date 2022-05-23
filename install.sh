@@ -11,6 +11,6 @@ rm ~/.bashrc
 rm ~/.vimrc
 
 # .bashrc and .vimrc
-ln -s ./.bashrc ~/.bashrc
-ln -s ./.vimrc ~/.vimrc
+ln -s ~/dotfiles/.bashrc ~/.bashrc
+ln -s ~/dotfiles/.vimrc ~/.vimrc
 
