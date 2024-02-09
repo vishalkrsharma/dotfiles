@@ -4,5 +4,5 @@ import = ["./dracula.toml"]
 size = 8.0
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
+family = "JetBrainsMono Nerd Font" 
 
