@@ -1,24 +1,11 @@
-# polybar
-mkdir .config/polybar
-ln -nfs ~/dotfiles/.config/polybar/config.ini ~/.config/polybar/config.ini
-ln -nfs ~/dotfiles/.config/polybar/launch.sh ~/.config/polybar/launch.sh
+# refresh packages list
+sudo pacman -Syyu
 
-# gitconfig
-ln -nfs ~/dotfiles/.gitconfig ~/.gitconfig
+# install packages
+sudo pacman -S firefox zsh vim vlc rofi polybar alacritty lf picom discord 
 
-# i3wm
-mkdir .config/i3
-ln -nfs ~/dotfiles/.config/i3/config ~/.config/i3/config
+# install fonts
+sudo pacman -S ttf-jetbrains-mono-nerd ttf-cascadia-code
 
-# alacritty
-mkdir .config/alacritty
-ln -nfs ~/dotfiles/.config/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
-ln -nfs ~/dotfiles/.config/alacritty/dracula.toml ~/.config/alacritty/dracula.toml
-
-# rofi
-mkdir .config/rofi
-ln -nfs ~/dotfiles/.config/rofi/config.rasi ~/.config/rofi/config.rasi
-
-# zsh
-ln -nfs ~/dotfiles/.zshrc ~/.zshrc
-
+# set default shell to zsh
+chsh -s $(which zsh)
